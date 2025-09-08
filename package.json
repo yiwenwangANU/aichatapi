@@ -1,0 +1,21 @@
+{
+  "name": "aichatapi",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "@langchain/anthropic": "^0.3.27",
+    "@langchain/core": "^0.3.75",
+    "@langchain/langgraph": "^0.4.9",
+    "dotenv": "^17.2.2",
+    "nodemon": "^3.1.10",
+    "zod": "^3.25.76"
+  }
+}
