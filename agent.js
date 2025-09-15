@@ -13,4 +13,4 @@ const results = await agent.invoke({
   messages: [{ role: "user", content: "What is the capital of moon?" }],
 });
 
-console.log(results);
+console.log(results.messages.at(-1)?.content);
